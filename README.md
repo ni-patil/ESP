@@ -48,7 +48,17 @@ Set the right port and select the appropriate board in the Arduino IDE. Verify a
 
 Next check the serial port(115200 baud) of Arduino IDE for the IP assigned to ESP by the router to connect your phone and PC(some ESPs you need to hit the reset button to start the connection with WiFi).  
 
-Now copy the IP address from the serial port and open it in browser// search engine of your PC or phone which is also connected to the WiFi. Now you can trigger the light on the ESP to On and OFF from the browser of your device through your WiFi. 
+Now copy the IP address from the serial port and open it in browser or search engine of your PC or phone which is also connected to the same WiFi. Now you must notice that the webpage loads, and displays the following two line:
+
+
+-GPIO is now high/low
+
+-Click here to switch LED GPIO on, or here to switch LED GPIO off.
+
+
+
+Now you can trigger the light on the ESP to On and OFF from the browser of your device through your WiFi. 
+
 
 More beginner codes with simple examples on ESP functionallity can be found on Arduino IDE>> Files>> Examples.   
 
