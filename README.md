@@ -17,3 +17,6 @@ Edge Computing:
 Modern variants like the ESP32-S3 include hardware acceleration for AI and Machine Learning, allowing for local voice recognition or image processing. 
 
 # ESP can act as a WiFi access point or as a station Node
+ESP >> Router/Modem  << Laptop/Phone 
+
+ESP >> ESP  << Laptop/Phone
