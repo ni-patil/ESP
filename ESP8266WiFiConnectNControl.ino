@@ -10,8 +10,8 @@
 #include <ESP8266WiFi.h>
 
 #ifndef STASSID
-#define STASSID "FRITZ!Box 7520 ME E.G"
-#define STAPSK "84820430754615790891"
+#define STASSID "SSID/ name of WiFi"
+#define STAPSK "WiFi password"
 #endif
 
 const char* ssid = STASSID;
